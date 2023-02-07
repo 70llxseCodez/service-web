@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "TT Lakes";
+    position: relative;
+    display: flex;
+    background: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+textarea {
+    resize: none;
+}
