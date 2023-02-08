@@ -18,18 +18,18 @@ export function openFeedback() {
   buttonClose[1].addEventListener('click', () => {
     buttonClose[1].style.display = 'none';
     applyBackground.classList.remove('open-background');
-    feedback.classList.remove('open');
+    feedback.classList.add('none');
   });
 
   buttonOpen.addEventListener('click', () => {
     buttonClose[1].style = 'display:block';
     applyBackground.classList.add('open-background');
-    feedback.classList.add('open');
+    feedback.classList.remove('none');
   });
   buttonOpen3.addEventListener('click', () => {
     buttonClose[1].style = 'display:block';
     applyBackground.classList.add('open-background');
-    feedback.classList.add('open');
+    feedback.classList.remove('none');
   });
 }
 
@@ -43,18 +43,18 @@ export function openFeedBack2() {
   buttonClose.addEventListener('click', () => {
     buttonClose.style = 'display:none';
     applyBackground.classList.remove('open-background2');
-    feedback.classList.remove('open');
+    feedback.classList.add('none');
   });
 
   buttonOpen.addEventListener('click', () => {
     buttonClose.style = 'display:block';
     applyBackground.classList.add('open-background2');
-    feedback.classList.add('open');
+    feedback.classList.remove('none');
   });
   buttonOpen4.addEventListener('click', () => {
     buttonClose.style = 'display:block';
     applyBackground.classList.add('open-background2');
-    feedback.classList.add('open');
+    feedback.classList.remove('none');
   });
 }
 export function showMainText() {
