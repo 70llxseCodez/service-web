@@ -70,9 +70,18 @@
     }
 }
 
-@media screen and (width >=1702px) {
+@media screen and (width > 1702px) {
     .navbar {
-        width: 16%;
+        width: 20%;
+    }
+    .service {
+        width: 80%;
+    }
+}
+
+@media screen and (width <=1702px) {
+    .navbar {
+        width: 26%;
     }
     .service {
         width: 84%;
